@@ -1,0 +1,9 @@
+node_modules
+*.vsix
+.env
+.cursor
+*.sh
+.github/
+!samples/.env
+!samples/.cursor
+!samples/deploy.sh
