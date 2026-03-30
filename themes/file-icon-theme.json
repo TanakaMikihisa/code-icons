@@ -1576,9 +1576,6 @@
     "_cursor": {
       "iconPath": "../assets/cursor-sm.png"
     },
-    "_cursor": {
-      "iconPath": "../assets/cursor-sm.png"
-    },
     "_codex": {
       "iconPath": "../assets/codex.png"
     },
@@ -1980,6 +1977,7 @@
     "npm-debug.log": "_npm_ignored",
     ".env": "_private",
     ".cursor": "_cursor",
+    ".cursorignore": "_cursor",
     ".gitignore": "_git",
     "swiftformat": "_swiftformat_custom",
     "index.html": "_index_custom",
@@ -2500,6 +2498,7 @@
       "cmakelists.txt": "_makefile_3_light",
       "procfile": "_heroku_light",
       "npm-debug.log": "_npm_ignored_light",
+      ".cursorignore": "_cursor",
       ".gitignore": "_git_light",
       "CLAUDE.md": "_claude",
       "claude.md": "_claude"

@@ -45,3 +45,7 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 - [Cursor](https://cursor.com/en/brand)
 - [shadcn,io](https://www.shadcn.io)
 - [SVG REPO](https://www.svgrepo.com)
+
+### [1.0.1] -- 2026.3.30
+
+为 `.cursorignore` 文件应用 Cursor 图标

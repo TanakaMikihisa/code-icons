@@ -46,3 +46,7 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 - [Cursor](https://cursor.com/ja/brand)
 - [shadcn,io](https://www.shadcn.io)
 - [SVG REPO](https://www.svgrepo.com)
+
+### [1.0.1] -- 2026.3.30
+
+`.cursorignore`ファイルに`cursor`のアイコンを適用

@@ -37,3 +37,7 @@ Other icons are sourced from the following websites, and used/edited as needed u
 - [Cursor](https://cursor.com/en/brand)
 - [shadcn,io](https://www.shadcn.io)
 - [SVG REPO](https://www.svgrepo.com)
+
+### [1.0.1] -- 2026.3.30
+
+Applied the Cursor icon to `.cursorignore` files.
