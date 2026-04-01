@@ -9,33 +9,25 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 
 1. この拡張機能をインストール
 2. コマンドパレットを開く
-3. `File Icon Theme` を実行
+3. `ファイル Icon Theme` を実行
 4. `Code Icons` を選択
 
 ## サンプル（画像 + 対応）
 
 
-| 画像           | 対応先                                                          |
-| ------------ | ------------------------------------------------------------ |
-| cursor       | `.cursor` フォルダ                                               |
-| cursor | `.cursor` ファイル                                         |
-| codex        | `.codex` フォルダ                                                |
-| claude       | `.claude` フォルダ / `CLAUDE.md` ファイル                            |
-| agent        | `.agent` フォルダ                                                |
-| docs         | `docs` フォルダ                                                  |
-| venv         | `.venv` / `venv` / `env` / `.virtualenv` / `virtualenv` フォルダ |
-| rule         | `rules` フォルダ                                                 |
-| skill        | `skills` フォルダ                                                |
-| private      | `.env` ファイル / `private` フォルダ                                 |
-| swift        | `*.swift` ファイル                                               |
-| swiftformat  | `swiftformat` ファイル                                           |
-| index        | `index.html` ファイル                                            |
-| 404          | `404.html` ファイル                                              |
-| deploy       | `deploy.sh` ファイル（`samples/deploy.sh` も同系統）                   |
-| config       | `config.json` ファイル                                           |
-| readme en    | `README-EN.md` ファイル                                          |
-| readme jp    | `README-JP.md` ファイル                                          |
-| readme ch    | `README-CH.md` ファイル                                          |
+| `.cursor` フォルダ / `.cursorignore` ファイル | `.claude` フォルダ / `CLAUDE.md` ファイル | `.codex` フォルダ |
+| --- | --- | --- |
+| ![cursor](assets/cursor-sm.png) | ![claude](assets/claude.png) | ![codex](assets/codex.png) |
+| `.agent` フォルダ | `config.json` ファイル | `docs` フォルダ |
+| ![agent](assets/agent-sm.png) | ![config](assets/config.png) | ![docs](assets/docs.png) |
+| `.venv` / `venv` / `env` / `.virtualenv` / `virtualenv` フォルダs | `rules` フォルダ | `skills` フォルダ |
+| ![venv](assets/venv-sm.png) | ![rule](assets/rule-sm.png) | ![skill](assets/skill-sm.png) |
+| `.env` ファイル / `private` フォルダ | `*.swift` ファイルs | `.swiftformat` ファイル |
+| ![private](assets/private.png) | ![swift](assets/swift.png) | ![swiftformat](assets/swiftformat.png) |
+| `index.html` ファイル | `404.html` ファイル | `deploy.sh` ファイル (`samples/deploy.sh` uses small mapping) |
+| ![index](assets/index.png) | ![404](assets/404.png) | ![deploy](assets/deploy-sm.png) |
+| `README-CH.md` ファイル  | `README-EN.md` ファイル | `README-JP.md` ファイル |
+| ![readme ch](assets/CH.png) | ![readme en](assets/EN.png) | ![readme jp](assets/JP.png) |
 
 
 ## アイコンについて

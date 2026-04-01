@@ -21,7 +21,7 @@ It keeps the default Seti coverage and adds custom icons for common project file
 | ![agent](assets/agent-sm.png) | ![config](assets/config.png) | ![docs](assets/docs.png) |
 | `.venv` / `venv` / `env` / `.virtualenv` / `virtualenv` folders | `rules` folder | `skills` folder |
 | ![venv](assets/venv-sm.png) | ![rule](assets/rule-sm.png) | ![skill](assets/skill-sm.png) |
-| `.env` file / `private` folder | `*.swift` files | `swiftformat` file |
+| `.env` file / `private` folder | `*.swift` files | `.swiftformat` file |
 | ![private](assets/private.png) | ![swift](assets/swift.png) | ![swiftformat](assets/swiftformat.png) |
 | `index.html` file | `404.html` file | `deploy.sh` file (`samples/deploy.sh` uses small mapping) |
 | ![index](assets/index.png) | ![404](assets/404.png) | ![deploy](assets/deploy-sm.png) |

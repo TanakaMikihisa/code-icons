@@ -1979,7 +1979,7 @@
     ".cursor": "_cursor",
     ".cursorignore": "_cursor",
     ".gitignore": "_git",
-    "swiftformat": "_swiftformat_custom",
+    ".swiftformat": "_swiftformat_custom",
     "index.html": "_index_custom",
     "404.html": "_404_custom",
     "deploy.sh": "_deploy_custom",

@@ -14,27 +14,19 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 
 ## 示例（图片 + 对应规则）
 
-| 图片 | 对应对象 |
-|---|---|
-| ![cursor](./assets/cursor-sm.png) | `.cursor` 文件夹 |
-| ![cursor](./assets/cursor-sm.png) | `.cursor` 文件 |
-| ![codex](./assets/codex.png) | `.codex` 文件夹 |
-| ![claude](./assets/claude.png) | `.claude` 文件夹 / `CLAUDE.md` 文件 |
-| ![agent](./assets/agent-sm.png) | `.agent` 文件夹 |
-| ![docs](./assets/docs.png) | `docs` 文件夹 |
-| ![venv](./assets/venv-sm.png) | `.venv` / `venv` / `env` / `.virtualenv` / `virtualenv` 文件夹 |
-| ![rule](./assets/rule-sm.png) | `rules` 文件夹 |
-| ![skill](./assets/skill-sm.png) | `skills` 文件夹 |
-| ![private](./assets/private.png) | `.env` 文件 / `private` 文件夹 |
-| ![swift](./assets/swift.png) | `*.swift` 文件 |
-| ![swiftformat](./assets/swiftformat.png) | `swiftformat` 文件 |
-| ![index](./assets/index.png) | `index.html` 文件 |
-| ![404](./assets/404.png) | `404.html` 文件 |
-| ![deploy](./assets/deploy-sm.png) | `deploy.sh` 文件（`samples/deploy.sh` 同类映射） |
-| ![config](./assets/config.png) | `config.json` 文件 |
-| ![readme en](./assets/EN.png) | `README-EN.md` 文件 |
-| ![readme jp](./assets/JP.png) | `README-JP.md` 文件 |
-| ![readme ch](./assets/CH.png) | `README-CH.md` 文件 |
+| `.cursor` folder / `.cursorignore` file | `.claude` folder / `CLAUDE.md` file | `.codex` folder |
+| --- | --- | --- |
+| ![cursor](assets/cursor-sm.png) | ![claude](assets/claude.png) | ![codex](assets/codex.png) |
+| `.agent` folder | `config.json` file | `docs` folder |
+| ![agent](assets/agent-sm.png) | ![config](assets/config.png) | ![docs](assets/docs.png) |
+| `.venv` / `venv` / `env` / `.virtualenv` / `virtualenv` folders | `rules` folder | `skills` folder |
+| ![venv](assets/venv-sm.png) | ![rule](assets/rule-sm.png) | ![skill](assets/skill-sm.png) |
+| `.env` file / `private` folder | `*.swift` files | `.swiftformat` file |
+| ![private](assets/private.png) | ![swift](assets/swift.png) | ![swiftformat](assets/swiftformat.png) |
+| `index.html` file | `404.html` file | `deploy.sh` file (`samples/deploy.sh` uses small mapping) |
+| ![index](assets/index.png) | ![404](assets/404.png) | ![deploy](assets/deploy-sm.png) |
+| `README-CH.md` file  | `README-EN.md` file | `README-JP.md` file |
+| ![readme ch](assets/CH.png) | ![readme en](assets/EN.png) | ![readme jp](assets/JP.png) |
 
 ## 关于图标素材
 
