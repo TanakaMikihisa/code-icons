@@ -1585,6 +1585,9 @@
     "_docs": {
       "iconPath": "../assets/docs.png"
     },
+    "_daily_custom": {
+      "iconPath": "../assets/celendar.png"
+    },
     "_agent": {
       "iconPath": "../assets/agent-sm.png"
     },
@@ -1632,6 +1635,9 @@
     },
     "_404_custom": {
       "iconPath": "../assets/404.png"
+    },
+    "_template_custom": {
+      "iconPath": "../assets/template.png"
     }
   },
   "file": "_default",
@@ -1990,7 +1996,9 @@
     "README-JP.md": "_readme_jp_custom",
     "README-CH.md": "_readme_ch_custom",
     "CLAUDE.md": "_claude",
-    "claude.md": "_claude"
+    "claude.md": "_claude",
+    "template.md": "_template_custom",
+    "template.txt": "_template_custom"
   },
   "languageIds": {
     "bat": "_windows",
@@ -2501,7 +2509,9 @@
       ".cursorignore": "_cursor",
       ".gitignore": "_git_light",
       "CLAUDE.md": "_claude",
-      "claude.md": "_claude"
+      "claude.md": "_claude",
+      "template.md": "_template_custom",
+      "template.txt": "_template_custom"
     }
   },
   "version": "https://github.com/jesseweed/seti-ui/commit/2d6c5e68b4ded73c92dac291845ee44e1182d511",
@@ -2520,6 +2530,7 @@
     "skills": "_skill_custom",
     "private": "_private",
     "docs": "_docs",
+    "daily": "_daily_custom",
     ".git": "_git"
   },
   "folderNamesExpanded": {
@@ -2537,6 +2548,7 @@
     "skills": "_skill_custom",
     "private": "_private",
     "docs": "_docs",
+    "daily": "_daily_custom",
     ".git": "_git"
   },
   "rootFolderNames": {

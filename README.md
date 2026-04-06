@@ -27,6 +27,8 @@ It keeps the default Seti coverage and adds custom icons for common project file
 | ![index](assets/index.png) | ![404](assets/404.png) | ![deploy](assets/deploy-sm.png) |
 | `README-CH.md` file  | `README-EN.md` file | `README-JP.md` file |
 | ![readme ch](assets/CH.png) | ![readme en](assets/EN.png) | ![readme jp](assets/JP.png) |
+| `template.md` / `template.txt` files | `daily` folder | |
+| ![template](assets/template.png) | ![daily](assets/celendar.png) | |
 
 ## About Icon Assets
 
@@ -41,3 +43,7 @@ Other icons are sourced from the following websites, and used/edited as needed u
 ### [1.0.1] -- 2026.3.30
 
 Applied the Cursor icon to `.cursorignore` files.
+
+### [1.0.3] -- 2026.4.6
+
+Added icons for `template.md` / `template.txt` files and the `daily` folder.
