@@ -1638,6 +1638,9 @@
     },
     "_template_custom": {
       "iconPath": "../assets/template.png"
+    },
+    "_life_custom": {
+      "iconPath": "../assets/Life.png"
     }
   },
   "file": "_default",
@@ -2520,7 +2523,7 @@
     ".codex": "_codex",
     ".claude": "_claude",
     ".agent": "_agent",
-    ".github": "_github_custom",
+    ".github": "_git",
     ".venv": "_venv_custom",
     "venv": "_venv_custom",
     "env": "_venv_custom",
@@ -2531,6 +2534,8 @@
     "private": "_private",
     "docs": "_docs",
     "daily": "_daily_custom",
+    "Life": "_life_custom",
+    "life": "_life_custom",
     ".git": "_git"
   },
   "folderNamesExpanded": {
@@ -2538,7 +2543,7 @@
     ".codex": "_codex",
     ".claude": "_claude",
     ".agent": "_agent",
-    ".github": "_github_custom",
+    ".github": "_git",
     ".venv": "_venv_custom",
     "venv": "_venv_custom",
     "env": "_venv_custom",
@@ -2549,11 +2554,13 @@
     "private": "_private",
     "docs": "_docs",
     "daily": "_daily_custom",
+    "Life": "_life_custom",
+    "life": "_life_custom",
     ".git": "_git"
   },
   "rootFolderNames": {
     ".agent": "_agent",
-    ".github": "_github_custom",
+    ".github": "_git",
     ".venv": "_venv_custom",
     "venv": "_venv_custom",
     "env": "_venv_custom",
@@ -2561,11 +2568,13 @@
     "virtualenv": "_venv_custom",
     "rules": "_rule_custom",
     "skills": "_skill_custom",
-    "private": "_private"
+    "private": "_private",
+    "Life": "_life_custom",
+    "life": "_life_custom"
   },
   "rootFolderNamesExpanded": {
     ".agent": "_agent",
-    ".github": "_github_custom",
+    ".github": "_git",
     ".venv": "_venv_custom",
     "venv": "_venv_custom",
     "env": "_venv_custom",
@@ -2573,6 +2582,8 @@
     "virtualenv": "_venv_custom",
     "rules": "_rule_custom",
     "skills": "_skill_custom",
-    "private": "_private"
+    "private": "_private",
+    "Life": "_life_custom",
+    "life": "_life_custom"
   }
 }
