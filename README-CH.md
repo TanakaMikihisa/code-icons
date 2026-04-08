@@ -27,8 +27,8 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 | ![index](assets/index.png) | ![404](assets/404.png) | ![deploy](assets/deploy-sm.png) |
 | `README-CH.md` file  | `README-EN.md` file | `README-JP.md` file |
 | ![readme ch](assets/CH.png) | ![readme en](assets/EN.png) | ![readme jp](assets/JP.png) |
-| `template.md` / `template.txt` 文件 | `daily` 文件夹 | |
-| ![template](assets/template.png) | ![daily](assets/celendar.png) | |
+| `template.md` / `template.txt` 文件 | `daily` 文件夹 | `Life` / `life` 文件夹 |
+| ![template](assets/template.png) | ![daily](assets/celendar.png) | ![life](assets/Life.png) |
 
 ## 关于图标素材
 
@@ -47,3 +47,8 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 ### [1.0.3] -- 2026.4.6
 
 为 `template.md` / `template.txt` 与 `daily` 文件夹添加图标
+
+### [1.0.4] -- 2026.4.8
+
+为 `Life` / `life` 文件夹添加图标
+

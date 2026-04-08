@@ -28,8 +28,8 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 | ![index](assets/index.png) | ![404](assets/404.png) | ![deploy](assets/deploy-sm.png) |
 | `README-CH.md` ファイル  | `README-EN.md` ファイル | `README-JP.md` ファイル |
 | ![readme ch](assets/CH.png) | ![readme en](assets/EN.png) | ![readme jp](assets/JP.png) |
-| `template.md` / `template.txt` ファイル | `daily` フォルダ | |
-| ![template](assets/template.png) | ![daily](assets/celendar.png) | |
+| `template.md` / `template.txt` ファイル | `daily` フォルダ | `Life` / `life` フォルダ |
+| ![template](assets/template.png) | ![daily](assets/celendar.png) | ![life](assets/Life.png) |
 
 
 ## アイコンについて
@@ -48,3 +48,8 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 ### [1.0.3] -- 2026.4.6
 
 `template.md` / `template.txt` と `daily` フォルダ用のアイコンを追加
+
+### [1.0.4] -- 2026.4.8
+
+`Life` / `life` フォルダ用のアイコンを追加
+
