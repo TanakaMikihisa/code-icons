@@ -32,6 +32,8 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 | ![template](assets/template.png) | ![daily](assets/celendar.png) | ![life](assets/Life.png) |
 | `scr` / `scripts` フォルダ | `lab` / `laboratory` / `experiment` フォルダ | `temp` / `temporary` フォルダ |
 | ![tool](assets/tool.png) | ![lab](assets/lab.png) | ![temp](assets/clock.png) |
+| `.cache` / `__pycache__` などキャッシュ系フォルダ・ファイル | | |
+| ![garbage](assets/garbage.png) | | |
 
 
 ## アイコンについて
@@ -60,4 +62,8 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 - `.github` フォルダに Git アイコンを適用
 - `scr` / `scripts`、`lab` / `laboratory` / `experiment`、`temp` / `temporary` フォルダ用のアイコンを追加
 - `note` フォルダに docs アイコンを適用
+
+### [1.0.6] -- 2026.7.12
+
+キャッシュ系フォルダ・ファイル（`.cache`、`__pycache__`、`*.pyc`、`.eslintcache` など）に garbage アイコンを追加
 

@@ -31,6 +31,8 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 | ![template](assets/template.png) | ![daily](assets/celendar.png) | ![life](assets/Life.png) |
 | `scr` / `scripts` 文件夹 | `lab` / `laboratory` / `experiment` 文件夹 | `temp` / `temporary` 文件夹 |
 | ![tool](assets/tool.png) | ![lab](assets/lab.png) | ![temp](assets/clock.png) |
+| `.cache` / `__pycache__` 等缓存相关文件夹与文件 | | |
+| ![garbage](assets/garbage.png) | | |
 
 ## 关于图标素材
 
@@ -59,4 +61,8 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 - 为 `.github` 文件夹应用 Git 图标
 - 为 `scr` / `scripts`、`lab` / `laboratory` / `experiment`、`temp` / `temporary` 文件夹添加图标
 - 为 `note` 文件夹应用 docs 图标
+
+### [1.0.6] -- 2026.7.12
+
+为缓存相关文件夹与文件（`.cache`、`__pycache__`、`*.pyc`、`.eslintcache` 等）添加 garbage 图标
 

@@ -31,6 +31,8 @@ It keeps the default Seti coverage and adds custom icons for common project file
 | ![template](assets/template.png) | ![daily](assets/celendar.png) | ![life](assets/Life.png) |
 | `scr` / `scripts` folders | `lab` / `laboratory` / `experiment` folders | `temp` / `temporary` folders |
 | ![tool](assets/tool.png) | ![lab](assets/lab.png) | ![temp](assets/clock.png) |
+| `.cache` / `__pycache__` / cache folders & related files | | |
+| ![garbage](assets/garbage.png) | | |
 
 ## About Icon Assets
 
@@ -59,4 +61,8 @@ Added icon mapping for `Life` / `life` folders.
 - Applied the Git icon to `.github` folders.
 - Added icons for `scr` / `scripts`, `lab` / `laboratory` / `experiment`, and `temp` / `temporary` folders.
 - Applied the docs icon to `note` folders.
+
+### [1.0.6] -- 2026.7.12
+
+Added the garbage icon for cache folders/files (`.cache`, `__pycache__`, `*.pyc`, `.eslintcache`, etc.).
 
