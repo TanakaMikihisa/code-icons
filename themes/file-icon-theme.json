@@ -1641,6 +1641,15 @@
     },
     "_life_custom": {
       "iconPath": "../assets/Life.png"
+    },
+    "_tool_custom": {
+      "iconPath": "../assets/tool.png"
+    },
+    "_lab_custom": {
+      "iconPath": "../assets/lab.png"
+    },
+    "_temp_custom": {
+      "iconPath": "../assets/clock.png"
     }
   },
   "file": "_default",
@@ -2533,9 +2542,17 @@
     "skills": "_skill_custom",
     "private": "_private",
     "docs": "_docs",
+    "note": "_docs",
     "daily": "_daily_custom",
     "Life": "_life_custom",
     "life": "_life_custom",
+    "scr": "_tool_custom",
+    "scripts": "_tool_custom",
+    "lab": "_lab_custom",
+    "laboratory": "_lab_custom",
+    "experiment": "_lab_custom",
+    "temp": "_temp_custom",
+    "temporary": "_temp_custom",
     ".git": "_git"
   },
   "folderNamesExpanded": {
@@ -2553,9 +2570,17 @@
     "skills": "_skill_custom",
     "private": "_private",
     "docs": "_docs",
+    "note": "_docs",
     "daily": "_daily_custom",
     "Life": "_life_custom",
     "life": "_life_custom",
+    "scr": "_tool_custom",
+    "scripts": "_tool_custom",
+    "lab": "_lab_custom",
+    "laboratory": "_lab_custom",
+    "experiment": "_lab_custom",
+    "temp": "_temp_custom",
+    "temporary": "_temp_custom",
     ".git": "_git"
   },
   "rootFolderNames": {
@@ -2570,7 +2595,14 @@
     "skills": "_skill_custom",
     "private": "_private",
     "Life": "_life_custom",
-    "life": "_life_custom"
+    "life": "_life_custom",
+    "scr": "_tool_custom",
+    "scripts": "_tool_custom",
+    "lab": "_lab_custom",
+    "laboratory": "_lab_custom",
+    "experiment": "_lab_custom",
+    "temp": "_temp_custom",
+    "temporary": "_temp_custom"
   },
   "rootFolderNamesExpanded": {
     ".agent": "_agent",
@@ -2584,6 +2616,13 @@
     "skills": "_skill_custom",
     "private": "_private",
     "Life": "_life_custom",
-    "life": "_life_custom"
+    "life": "_life_custom",
+    "scr": "_tool_custom",
+    "scripts": "_tool_custom",
+    "lab": "_lab_custom",
+    "laboratory": "_lab_custom",
+    "experiment": "_lab_custom",
+    "temp": "_temp_custom",
+    "temporary": "_temp_custom"
   }
 }

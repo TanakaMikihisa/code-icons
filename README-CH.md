@@ -17,7 +17,7 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 | `.cursor` folder / `.cursorignore` file | `.claude` folder / `CLAUDE.md` file | `.codex` folder |
 | --- | --- | --- |
 | ![cursor](assets/cursor-sm.png) | ![claude](assets/claude.png) | ![codex](assets/codex.png) |
-| `.agent` folder | `config.json` file | `docs` folder |
+| `.agent` folder | `config.json` file | `docs` / `note` 文件夹 |
 | ![agent](assets/agent-sm.png) | ![config](assets/config.png) | ![docs](assets/docs.png) |
 | `.venv` / `venv` / `env` / `.virtualenv` / `virtualenv` folders | `rules` folder | `skills` folder |
 | ![venv](assets/venv-sm.png) | ![rule](assets/rule-sm.png) | ![skill](assets/skill-sm.png) |
@@ -29,6 +29,8 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 | ![readme ch](assets/CH.png) | ![readme en](assets/EN.png) | ![readme jp](assets/JP.png) |
 | `template.md` / `template.txt` 文件 | `daily` 文件夹 | `Life` / `life` 文件夹 |
 | ![template](assets/template.png) | ![daily](assets/celendar.png) | ![life](assets/Life.png) |
+| `scr` / `scripts` 文件夹 | `lab` / `laboratory` / `experiment` 文件夹 | `temp` / `temporary` 文件夹 |
+| ![tool](assets/tool.png) | ![lab](assets/lab.png) | ![temp](assets/clock.png) |
 
 ## 关于图标素材
 
@@ -51,4 +53,10 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 ### [1.0.4] -- 2026.4.8
 
 为 `Life` / `life` 文件夹添加图标
+
+### [1.0.5] -- 2026.7.12
+
+- 为 `.github` 文件夹应用 Git 图标
+- 为 `scr` / `scripts`、`lab` / `laboratory` / `experiment`、`temp` / `temporary` 文件夹添加图标
+- 为 `note` 文件夹应用 docs 图标
 

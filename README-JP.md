@@ -18,7 +18,7 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 | `.cursor` フォルダ / `.cursorignore` ファイル | `.claude` フォルダ / `CLAUDE.md` ファイル | `.codex` フォルダ |
 | --- | --- | --- |
 | ![cursor](assets/cursor-sm.png) | ![claude](assets/claude.png) | ![codex](assets/codex.png) |
-| `.agent` フォルダ | `config.json` ファイル | `docs` フォルダ |
+| `.agent` フォルダ | `config.json` ファイル | `docs` / `note` フォルダ |
 | ![agent](assets/agent-sm.png) | ![config](assets/config.png) | ![docs](assets/docs.png) |
 | `.venv` / `venv` / `env` / `.virtualenv` / `virtualenv` フォルダs | `rules` フォルダ | `skills` フォルダ |
 | ![venv](assets/venv-sm.png) | ![rule](assets/rule-sm.png) | ![skill](assets/skill-sm.png) |
@@ -30,6 +30,8 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 | ![readme ch](assets/CH.png) | ![readme en](assets/EN.png) | ![readme jp](assets/JP.png) |
 | `template.md` / `template.txt` ファイル | `daily` フォルダ | `Life` / `life` フォルダ |
 | ![template](assets/template.png) | ![daily](assets/celendar.png) | ![life](assets/Life.png) |
+| `scr` / `scripts` フォルダ | `lab` / `laboratory` / `experiment` フォルダ | `temp` / `temporary` フォルダ |
+| ![tool](assets/tool.png) | ![lab](assets/lab.png) | ![temp](assets/clock.png) |
 
 
 ## アイコンについて
@@ -52,4 +54,10 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 ### [1.0.4] -- 2026.4.8
 
 `Life` / `life` フォルダ用のアイコンを追加
+
+### [1.0.5] -- 2026.7.12
+
+- `.github` フォルダに Git アイコンを適用
+- `scr` / `scripts`、`lab` / `laboratory` / `experiment`、`temp` / `temporary` フォルダ用のアイコンを追加
+- `note` フォルダに docs アイコンを適用
 

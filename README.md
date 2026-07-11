@@ -17,7 +17,7 @@ It keeps the default Seti coverage and adds custom icons for common project file
 | `.cursor` folder / `.cursorignore` file | `.claude` folder / `CLAUDE.md` file | `.codex` folder |
 | --- | --- | --- |
 | ![cursor](assets/cursor-sm.png) | ![claude](assets/claude.png) | ![codex](assets/codex.png) |
-| `.agent` folder | `config.json` file | `docs` folder |
+| `.agent` folder | `config.json` file | `docs` / `note` folders |
 | ![agent](assets/agent-sm.png) | ![config](assets/config.png) | ![docs](assets/docs.png) |
 | `.venv` / `venv` / `env` / `.virtualenv` / `virtualenv` folders | `rules` folder | `skills` folder |
 | ![venv](assets/venv-sm.png) | ![rule](assets/rule-sm.png) | ![skill](assets/skill-sm.png) |
@@ -29,6 +29,8 @@ It keeps the default Seti coverage and adds custom icons for common project file
 | ![readme ch](assets/CH.png) | ![readme en](assets/EN.png) | ![readme jp](assets/JP.png) |
 | `template.md` / `template.txt` files | `daily` folder | `Life` / `life` folders |
 | ![template](assets/template.png) | ![daily](assets/celendar.png) | ![life](assets/Life.png) |
+| `scr` / `scripts` folders | `lab` / `laboratory` / `experiment` folders | `temp` / `temporary` folders |
+| ![tool](assets/tool.png) | ![lab](assets/lab.png) | ![temp](assets/clock.png) |
 
 ## About Icon Assets
 
@@ -51,4 +53,10 @@ Added icons for `template.md` / `template.txt` files and the `daily` folder.
 ### [1.0.4] -- 2026.4.8
 
 Added icon mapping for `Life` / `life` folders.
+
+### [1.0.5] -- 2026.7.12
+
+- Applied the Git icon to `.github` folders.
+- Added icons for `scr` / `scripts`, `lab` / `laboratory` / `experiment`, and `temp` / `temporary` folders.
+- Applied the docs icon to `note` folders.
 
