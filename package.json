@@ -1,8 +1,8 @@
 {
   "name": "code-icon",
   "displayName": "Code Icon",
-  "description": "Provides an Cursor Icons for Cursor",
-  "version": "1.0.6",
+  "description": "Provides original file and folder icons",
+  "version": "1.0.7",
   "publisher": "tanakamikihisa",
   "license": "MIT",
   "icon": "assets/icon.png",
