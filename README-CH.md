@@ -33,6 +33,16 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 | ![tool](assets/tool.png) | ![lab](assets/lab.png) | ![temp](assets/clock.png) |
 | `.cache` / `__pycache__` 等缓存相关文件夹与文件 | | |
 | ![garbage](assets/garbage.png) | | |
+| `.vscode` / `.vscode-test` 文件夹 | `.vscodeignore` 文件 | `*.code-workspace` / `*.vsix` 文件 |
+| ![vscode](assets/vscode.png) | | |
+| `test` / `tests` / `__tests__` / `*.test.*` / `*.spec.*` | `mock` / `fixtures` / `stubs` 文件夹 | `bench` / `benchmark` 文件夹 |
+| ![lab](assets/lab.png) | ![lab2](assets/lab2.png) | ![benchmark](assets/benchmark.png) |
+| `schema` / `proto` / `contract` 文件夹 | `CONTRIBUTING.md` / `SECURITY.md` | Firebase（`.firebase`、`firebase.json` 等） |
+| ![schemas](assets/schemas.png) | | ![firebase](assets/firebase.png) |
+| `locales` / `i18n` 文件夹 | `fonts` / `typography` 文件夹 | `hooks` 文件夹 |
+| ![earth](assets/earth.png) | ![font](assets/font.png) | ![hook](assets/hook.png) |
+| `themes` / `icons` / `snapshots` 文件夹（+ assets 系） | `AGENT.md` | `package` / `dist` / `build` 文件夹 & `package.json` |
+| ![camera](assets/camera.png) | ![agent](assets/agent-sm.png) | ![box](assets/box.png) |
 
 ## 关于图标素材
 
@@ -65,4 +75,12 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 ### [1.0.6] -- 2026.7.12
 
 为缓存相关文件夹与文件（`.cache`、`__pycache__`、`*.pyc`、`.eslintcache` 等）添加 garbage 图标
+
+### [1.0.8] -- 2026.7.14
+
+- 添加 VS Code 相关图标（`.vscode`、`.vscode-test`、`.vscodeignore`、`*.code-workspace`、`*.vsix`）
+- 添加 test / mock / benchmark 图标（`lab`、`lab2`、`benchmark`）
+- 添加 schema、locales、font、hook、Firebase、box 图标
+- 将 camera 图标扩展到 `themes` / `icons` / `snapshots` 文件夹
+- 添加 `AGENT.md`、`CONTRIBUTING.md`、`SECURITY.md` 映射
 

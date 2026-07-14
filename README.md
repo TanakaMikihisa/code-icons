@@ -33,6 +33,16 @@ It keeps the default Seti coverage and adds custom icons for common project file
 | ![tool](assets/tool.png) | ![lab](assets/lab.png) | ![temp](assets/clock.png) |
 | `.cache` / `__pycache__` / cache folders & related files | | |
 | ![garbage](assets/garbage.png) | | |
+| `.vscode` / `.vscode-test` folders | `.vscodeignore` file | `*.code-workspace` / `*.vsix` files |
+| ![vscode](assets/vscode.png) | | |
+| `test` / `tests` / `__tests__` / `*.test.*` / `*.spec.*` | `mock` / `fixtures` / `stubs` folders | `bench` / `benchmark` folders |
+| ![lab](assets/lab.png) | ![lab2](assets/lab2.png) | ![benchmark](assets/benchmark.png) |
+| `schema` / `proto` / `contract` folders | `CONTRIBUTING.md` / `SECURITY.md` | Firebase (`.firebase`, `firebase.json`, etc.) |
+| ![schemas](assets/schemas.png) | | ![firebase](assets/firebase.png) |
+| `locales` / `i18n` folders | `fonts` / `typography` folders | `hooks` folder |
+| ![earth](assets/earth.png) | ![font](assets/font.png) | ![hook](assets/hook.png) |
+| `themes` / `icons` / `snapshots` folders (+ assets) | `AGENT.md` | `package` / `dist` / `build` folders & `package.json` |
+| ![camera](assets/camera.png) | ![agent](assets/agent-sm.png) | ![box](assets/box.png) |
 
 ## About Icon Assets
 
@@ -65,4 +75,12 @@ Added icon mapping for `Life` / `life` folders.
 ### [1.0.6] -- 2026.7.12
 
 Added the garbage icon for cache folders/files (`.cache`, `__pycache__`, `*.pyc`, `.eslintcache`, etc.).
+
+### [1.0.8] -- 2026.7.14
+
+- Added VS Code icons (`.vscode`, `.vscode-test`, `.vscodeignore`, `*.code-workspace`, `*.vsix`).
+- Added test / mock / benchmark icons (`lab`, `lab2`, `benchmark`).
+- Added schema, locale, font, hook, Firebase, and box icons.
+- Extended camera icon to `themes` / `icons` / `snapshots` folders.
+- Added `AGENT.md`, `CONTRIBUTING.md`, and `SECURITY.md` mappings.
 

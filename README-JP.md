@@ -34,6 +34,16 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 | ![tool](assets/tool.png) | ![lab](assets/lab.png) | ![temp](assets/clock.png) |
 | `.cache` / `__pycache__` などキャッシュ系フォルダ・ファイル | | |
 | ![garbage](assets/garbage.png) | | |
+| `.vscode` / `.vscode-test` フォルダ | `.vscodeignore` ファイル | `*.code-workspace` / `*.vsix` ファイル |
+| ![vscode](assets/vscode.png) | | |
+| `test` / `tests` / `__tests__` / `*.test.*` / `*.spec.*` | `mock` / `fixtures` / `stubs` フォルダ | `bench` / `benchmark` フォルダ |
+| ![lab](assets/lab.png) | ![lab2](assets/lab2.png) | ![benchmark](assets/benchmark.png) |
+| `schema` / `proto` / `contract` フォルダ | `CONTRIBUTING.md` / `SECURITY.md` | Firebase（`.firebase`、`firebase.json` など） |
+| ![schemas](assets/schemas.png) | | ![firebase](assets/firebase.png) |
+| `locales` / `i18n` フォルダ | `fonts` / `typography` フォルダ | `hooks` フォルダ |
+| ![earth](assets/earth.png) | ![font](assets/font.png) | ![hook](assets/hook.png) |
+| `themes` / `icons` / `snapshots` フォルダ（+ assets 系） | `AGENT.md` | `package` / `dist` / `build` フォルダ & `package.json` |
+| ![camera](assets/camera.png) | ![agent](assets/agent-sm.png) | ![box](assets/box.png) |
 
 
 ## アイコンについて
@@ -66,4 +76,12 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 ### [1.0.6] -- 2026.7.12
 
 キャッシュ系フォルダ・ファイル（`.cache`、`__pycache__`、`*.pyc`、`.eslintcache` など）に garbage アイコンを追加
+
+### [1.0.8] -- 2026.7.14
+
+- VS Code 関連（`.vscode`、`.vscode-test`、`.vscodeignore`、`*.code-workspace`、`*.vsix`）のアイコンを追加
+- test / mock / benchmark 用アイコン（`lab`、`lab2`、`benchmark`）を追加
+- schema、locales、font、hook、Firebase、box 用アイコンを追加
+- `themes` / `icons` / `snapshots` フォルダに camera アイコンを拡張
+- `AGENT.md`、`CONTRIBUTING.md`、`SECURITY.md` のマッピングを追加
 

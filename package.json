@@ -1,8 +1,8 @@
 {
   "name": "code-icon",
   "displayName": "Code Icon",
-  "description": "Provides original file and folder icons",
-  "version": "1.0.7",
+  "description": "Provides unique file and folder icons",
+  "version": "1.0.8",
   "publisher": "tanakamikihisa",
   "license": "MIT",
   "icon": "assets/icon.png",
