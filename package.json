@@ -2,10 +2,10 @@
   "name": "code-icon",
   "displayName": "Code Icon",
   "description": "Provides unique file and folder icons",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "publisher": "tanakamikihisa",
   "license": "MIT",
-  "icon": "assets/icon.png",
+  "icon": "assets/icon-sm.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/TanakaMikihisa/code-icons.git"

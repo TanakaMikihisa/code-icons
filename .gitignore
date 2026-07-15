@@ -3,6 +3,9 @@ node_modules
 .env
 .cursor
 *.sh
+!pad-assets.sh
+!install-git-hooks.sh
+!build-vsix.sh
 !samples/.env
 !samples/.cursor
 !samples/deploy.sh

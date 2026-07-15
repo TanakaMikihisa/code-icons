@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+
+STAGED="$(git diff --cached --name-only --diff-filter=ACMR)"
+
+needs_pad=0
+while IFS= read -r path; do
+  [[ -z "$path" ]] && continue
+  case "$path" in
+    pad-assets.sh|.githooks/pre-commit)
+      needs_pad=1
+      ;;
+    assets/*.png)
+      base="$(basename "$path")"
+      if [[ "$base" != *-sm.png ]]; then
+        needs_pad=1
+      fi
+      ;;
+  esac
+done <<< "$STAGED"
+
+if [[ "$needs_pad" -eq 0 ]]; then
+  exit 0
+fi
+
+echo "pad-assets: scan -> convert -> update references..."
+./pad-assets.sh
+
+git add assets/*-sm.png \
+  themes/file-icon-theme.json \
+  README.md README-JP.md README-CH.md \
+  package.json 2>/dev/null || true
+
+exit 0

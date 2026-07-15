@@ -1327,10 +1327,10 @@
       "fontColor": "#519aba"
     },
     "_swift_light": {
-      "iconPath": "../assets/swift.png"
+      "iconPath": "../assets/swift-sm.png"
     },
     "_swift": {
-      "iconPath": "../assets/swift.png"
+      "iconPath": "../assets/swift-sm.png"
     },
     "_terraform_light": {
       "fontCharacter": "\\E093",
@@ -1577,43 +1577,43 @@
       "iconPath": "../assets/cursor-sm.png"
     },
     "_codex": {
-      "iconPath": "../assets/codex.png"
+      "iconPath": "../assets/codex-sm.png"
     },
     "_claude": {
-      "iconPath": "../assets/claude.png"
+      "iconPath": "../assets/claude-sm.png"
     },
     "_docs": {
-      "iconPath": "../assets/docs.png"
+      "iconPath": "../assets/docs-sm.png"
     },
     "_daily_custom": {
-      "iconPath": "../assets/celendar.png"
+      "iconPath": "../assets/celendar-sm.png"
     },
     "_agent": {
       "iconPath": "../assets/agent-sm.png"
     },
     "_private": {
-      "iconPath": "../assets/private.png"
+      "iconPath": "../assets/private-sm.png"
     },
     "_readme_custom": {
-      "iconPath": "../assets/README.png"
+      "iconPath": "../assets/README-sm.png"
     },
     "_readme_jp_custom": {
-      "iconPath": "../assets/JP.png"
+      "iconPath": "../assets/JP-sm.png"
     },
     "_readme_en_custom": {
-      "iconPath": "../assets/EN.png"
+      "iconPath": "../assets/EN-sm.png"
     },
     "_readme_ch_custom": {
-      "iconPath": "../assets/CH.png"
+      "iconPath": "../assets/CH-sm.png"
     },
     "_github_custom": {
       "iconPath": "../assets/github.png"
     },
     "_swiftformat_custom": {
-      "iconPath": "../assets/swiftformat.png"
+      "iconPath": "../assets/swiftformat-sm.png"
     },
     "_index_custom": {
-      "iconPath": "../assets/index.png"
+      "iconPath": "../assets/index-sm.png"
     },
     "_deploy_custom": {
       "iconPath": "../assets/deploy-sm.png"
@@ -1622,7 +1622,7 @@
       "iconPath": "../assets/deploy-sm.png"
     },
     "_config_custom": {
-      "iconPath": "../assets/config.png"
+      "iconPath": "../assets/config-sm.png"
     },
     "_venv_custom": {
       "iconPath": "../assets/venv-sm.png"
@@ -1634,55 +1634,61 @@
       "iconPath": "../assets/skill-sm.png"
     },
     "_404_custom": {
-      "iconPath": "../assets/404.png"
+      "iconPath": "../assets/404-sm.png"
     },
     "_template_custom": {
-      "iconPath": "../assets/template.png"
+      "iconPath": "../assets/template-sm.png"
     },
     "_life_custom": {
-      "iconPath": "../assets/Life.png"
+      "iconPath": "../assets/Life-sm.png"
     },
     "_tool_custom": {
-      "iconPath": "../assets/tool.png"
+      "iconPath": "../assets/tool-sm.png"
     },
     "_lab_custom": {
-      "iconPath": "../assets/lab.png"
+      "iconPath": "../assets/lab-sm.png"
     },
     "_temp_custom": {
-      "iconPath": "../assets/clock.png"
+      "iconPath": "../assets/clock-sm.png"
     },
     "_garbage_custom": {
-      "iconPath": "../assets/garbage.png"
+      "iconPath": "../assets/garbage-sm.png"
     },
     "_camera_custom": {
-      "iconPath": "../assets/camera.png"
+      "iconPath": "../assets/camera-sm.png"
     },
     "_vscode_custom": {
-      "iconPath": "../assets/vscode.png"
+      "iconPath": "../assets/vscode-sm.png"
     },
     "_mock_custom": {
-      "iconPath": "../assets/lab2.png"
+      "iconPath": "../assets/lab2-sm.png"
     },
     "_benchmark_custom": {
-      "iconPath": "../assets/benchmark.png"
+      "iconPath": "../assets/benchmark-sm.png"
     },
     "_schemas_custom": {
-      "iconPath": "../assets/schemas.png"
+      "iconPath": "../assets/schemas-sm.png"
     },
     "_earth_custom": {
-      "iconPath": "../assets/earth.png"
+      "iconPath": "../assets/earth-sm.png"
     },
     "_font_custom": {
-      "iconPath": "../assets/font.png"
+      "iconPath": "../assets/font-sm.png"
     },
     "_hook_custom": {
-      "iconPath": "../assets/hook.png"
+      "iconPath": "../assets/hook-sm.png"
     },
     "_firebase_custom": {
-      "iconPath": "../assets/firebase.png"
+      "iconPath": "../assets/firebase-sm.png"
     },
     "_box_custom": {
-      "iconPath": "../assets/box.png"
+      "iconPath": "../assets/box-sm.png"
+    },
+    "_list_custom": {
+      "iconPath": "../assets/list-sm.png"
+    },
+    "_info_custom": {
+      "iconPath": "../assets/info-sm.png"
     }
   },
   "file": "_default",
@@ -1692,6 +1698,7 @@
     "cache": "_garbage_custom",
     "code-workspace": "_vscode_custom",
     "vsix": "_vscode_custom",
+    "plist": "_list_custom",
     "bsl": "_bsl",
     "mdo": "_mdo",
     "cls": "_salesforce",
@@ -1946,9 +1953,10 @@
     "readme.md": "_info",
     "readme.txt": "_info",
     "readme": "_info",
-    "changelog.md": "_clock",
-    "changelog.txt": "_clock",
-    "changelog": "_clock",
+    "changelog.md": "_temp_custom",
+    "changelog.txt": "_temp_custom",
+    "changelog": "_temp_custom",
+    "CHANGELOG.md": "_temp_custom",
     "changes.md": "_clock",
     "changes.txt": "_clock",
     "changes": "_clock",
@@ -2490,9 +2498,10 @@
       "readme.md": "_info_light",
       "readme.txt": "_info_light",
       "readme": "_info_light",
-      "changelog.md": "_clock_light",
-      "changelog.txt": "_clock_light",
-      "changelog": "_clock_light",
+      "changelog.md": "_temp_custom",
+      "changelog.txt": "_temp_custom",
+      "changelog": "_temp_custom",
+      "CHANGELOG.md": "_temp_custom",
       "changes.md": "_clock_light",
       "changes.txt": "_clock_light",
       "changes": "_clock_light",
@@ -2642,6 +2651,9 @@
     "experiment": "_lab_custom",
     "temp": "_temp_custom",
     "temporary": "_temp_custom",
+    "log": "_temp_custom",
+    "logs": "_temp_custom",
+    "info": "_info_custom",
     ".cache": "_garbage_custom",
     "cache": "_garbage_custom",
     "__pycache__": "_garbage_custom",
@@ -2682,6 +2694,8 @@
     "typography": "_font_custom",
     "hooks": "_hook_custom",
     "hook": "_hook_custom",
+    "GitHooks": "_hook_custom",
+    ".githooks": "_hook_custom",
     "themes": "_camera_custom",
     "theme": "_camera_custom",
     "icons": "_camera_custom",
@@ -2751,6 +2765,9 @@
     "experiment": "_lab_custom",
     "temp": "_temp_custom",
     "temporary": "_temp_custom",
+    "log": "_temp_custom",
+    "logs": "_temp_custom",
+    "info": "_info_custom",
     ".cache": "_garbage_custom",
     "cache": "_garbage_custom",
     "__pycache__": "_garbage_custom",
@@ -2791,6 +2808,8 @@
     "typography": "_font_custom",
     "hooks": "_hook_custom",
     "hook": "_hook_custom",
+    "GitHooks": "_hook_custom",
+    ".githooks": "_hook_custom",
     "themes": "_camera_custom",
     "theme": "_camera_custom",
     "icons": "_camera_custom",
@@ -2854,6 +2873,9 @@
     "experiment": "_lab_custom",
     "temp": "_temp_custom",
     "temporary": "_temp_custom",
+    "log": "_temp_custom",
+    "logs": "_temp_custom",
+    "info": "_info_custom",
     ".cache": "_garbage_custom",
     "cache": "_garbage_custom",
     "__pycache__": "_garbage_custom",
@@ -2893,6 +2915,8 @@
     "typography": "_font_custom",
     "hooks": "_hook_custom",
     "hook": "_hook_custom",
+    "GitHooks": "_hook_custom",
+    ".githooks": "_hook_custom",
     "themes": "_camera_custom",
     "theme": "_camera_custom",
     "icons": "_camera_custom",
@@ -2956,6 +2980,9 @@
     "experiment": "_lab_custom",
     "temp": "_temp_custom",
     "temporary": "_temp_custom",
+    "log": "_temp_custom",
+    "logs": "_temp_custom",
+    "info": "_info_custom",
     ".cache": "_garbage_custom",
     "cache": "_garbage_custom",
     "__pycache__": "_garbage_custom",
@@ -2995,6 +3022,8 @@
     "typography": "_font_custom",
     "hooks": "_hook_custom",
     "hook": "_hook_custom",
+    "GitHooks": "_hook_custom",
+    ".githooks": "_hook_custom",
     "themes": "_camera_custom",
     "theme": "_camera_custom",
     "icons": "_camera_custom",
