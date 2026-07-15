@@ -11,7 +11,8 @@ Usage: pad-assets.sh
 
 1. Scan assets/*.png (files without "-sm" in the name)
 2. Convert each to a padded "{name}-sm.png"
-3. Update icon paths in themes/file-icon-theme.json, README*.md, package.json
+3. Remove the source PNG files
+4. Update icon paths in themes/file-icon-theme.json, README*.md, package.json
 
 Reference size and margin are derived from assets/venv-sm.png.
 EOF
@@ -143,6 +144,7 @@ print()
 
 print("== 2. Convert ==")
 generated = 0
+removed: list[str] = []
 
 for path in targets:
     image = load_rgba(path)
@@ -165,7 +167,9 @@ for path in targets:
 
     output_path = assets_dir / sm_output_name(path.name)
     canvas.save(output_path)
+    path.unlink()
     generated += 1
+    removed.append(path.name)
 
     print(
         f"  {path.name} -> {output_path.name} "
@@ -176,7 +180,13 @@ print()
 print(f"Converted {generated} file(s).")
 print()
 
-print("== 3. Update code ==")
+if removed:
+    print("== 3. Remove sources ==")
+    for name in removed:
+        print(f"  - {name}")
+    print()
+
+print("== 4. Update code ==")
 sm_mapping = build_sm_mapping(assets_dir)
 updated_files = update_references(sm_mapping)
 

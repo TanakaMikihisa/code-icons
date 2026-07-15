@@ -26,10 +26,10 @@ if [[ "$needs_pad" -eq 0 ]]; then
   exit 0
 fi
 
-echo "pad-assets: scan -> convert -> update references..."
+echo "pad-assets: scan -> convert -> remove sources -> update references..."
 ./pad-assets.sh
 
-git add assets/*-sm.png \
+git add assets/ \
   themes/file-icon-theme.json \
   README.md README-JP.md README-CH.md \
   package.json 2>/dev/null || true

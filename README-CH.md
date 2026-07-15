@@ -56,8 +56,7 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 添加新图标时:
 
 1. 将源 PNG 放入 `assets/`（文件名不含 `-sm`）
-2. 运行 `./pad-assets.sh` — 扫描源文件、生成 `-sm` 文件，并更新 `themes/file-icon-theme.json` / README / `package.json`
-3. 转换后删除源文件（扩展实际使用的是 `-sm` 文件）
+2. 运行 `./pad-assets.sh` — 扫描源文件、生成 `-sm` 文件、删除源文件，并更新 `themes/file-icon-theme.json` / README / `package.json`
 
 运行一次 `./install-git-hooks.sh` 后，提交 assets 变更时会自动执行 `pad-assets.sh`。
 
@@ -103,4 +102,8 @@ Code Icons 是一个用于 Visual Studio Code / Cursor 的文件图标主题。
 
 - 统一自定义图标的图片尺寸
 - 添加 `*.plist`、`GitHooks` / `.githooks`、`info` 文件夹、`log` / `logs`、`CHANGELOG.md` 图标
+
+### [1.1.1] -- 2026.7.15
+
+- `pad-assets.sh` 转换后自动删除源图片
 

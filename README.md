@@ -56,8 +56,7 @@ They are padded to a uniform canvas size derived from `venv-sm.png`.
 When adding a new icon:
 
 1. Place the source PNG in `assets/` (filename without `-sm`)
-2. Run `./pad-assets.sh` — scans sources, generates `-sm` files, and updates `themes/file-icon-theme.json` / README / `package.json`
-3. Remove the source file after conversion (only `-sm` files are used by the extension)
+2. Run `./pad-assets.sh` — scans sources, generates `-sm` files, removes sources, and updates `themes/file-icon-theme.json` / README / `package.json`
 
 Run `./install-git-hooks.sh` once to auto-run `pad-assets.sh` on commit when assets change.
 
@@ -103,4 +102,8 @@ Added the garbage icon for cache folders/files (`.cache`, `__pycache__`, `*.pyc`
 
 - Unified custom icon image sizes
 - Added icons for `*.plist`, `GitHooks` / `.githooks`, `info` folder, `log` / `logs`, and `CHANGELOG.md`.
+
+### [1.1.1] -- 2026.7.15
+
+- `pad-assets.sh` now auto-removes source images after conversion.
 

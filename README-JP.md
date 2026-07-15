@@ -58,8 +58,7 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 新しいアイコンを追加するとき:
 
 1. `assets/` に元画像を置く（ファイル名は `-sm` なし）
-2. `./pad-assets.sh` を実行 — 元画像をスキャンし、`-sm` ファイルを生成、`themes/file-icon-theme.json` / README / `package.json` を更新
-3. 変換後、元画像を削除する（拡張機能が使うのは `-sm` のみ）
+2. `./pad-assets.sh` を実行 — 元画像をスキャンし、`-sm` ファイルを生成、元画像を削除、`themes/file-icon-theme.json` / README / `package.json` を更新
 
 `./install-git-hooks.sh` を一度実行すると、assets 変更時の commit で `pad-assets.sh` が自動実行されます。
 
@@ -104,4 +103,8 @@ Seti の既存カバレッジを活かしつつ、よく使うファイル名・
 
 - カスタムアイコンの画像サイズを統一
 - `*.plist`、`GitHooks` / `.githooks`、`info` フォルダ、`log` / `logs`、`CHANGELOG.md` のアイコンを追加
+
+### [1.1.1] -- 2026.7.15
+
+- `pad-assets.sh` で変換後に元画像を自動削除するよう変更
 
